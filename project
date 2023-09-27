@@ -1,0 +1,313 @@
+*{
+	margin:0;
+	font-family:arial;
+	border:border-box;
+}
+.navbar{
+	height:60px;
+	background-color:#0f1111;
+	color:white;
+	display:flex;
+	align-items:center;
+	justify-content:space-evenly;
+	
+}
+
+.nav-logo{
+	height:50px;
+	width:100px;
+}
+.logo{
+	background-image:url("amazon.logo.png");
+	background-size:cover;
+	height:50px;
+	width:100%;
+	
+}
+border:{
+	border:2px solid transparent;
+}
+.border:hover{
+	border:2px solid white;
+	border-radius:2px;
+}
+
+
+.add-first{
+	color:#cccccc;
+	font-size:0.85rem;
+	margin-left:15px;
+
+}
+.add-second{
+	font-size:1rem;
+	
+}
+.add-icon{
+	display:flex;
+	align-items:center;
+	margin-left:4px;
+	
+}
+
+
+
+
+
+.nav-search{
+	display:flex;
+	justify-content:space-evenly;
+	background-color:pink;
+	width:620px;
+	height:40px;
+	border-radius:4px;
+}
+.search-select{
+    width:50px;
+    text-align:center;
+  	border-top-left-radius:4px;
+	border-bottom-left-radius:4px;
+	border:none;
+}
+.search-input{
+	width:100%;
+	font-size:1rem;
+	border:none;
+}
+.search-icon{
+	width:45px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:1.2rem;
+	background-color:rgb(255,174,0);
+	border-top-right-radius:4px;
+	border-bottom-right-radius:4px;
+	color:black;
+}
+.nav-search:hover{
+	border:2px solid orange;
+}
+
+span{
+	font-size:0.8rem;
+}
+.nav-cart i{
+	font-size:30px;
+}
+.nav-cart{
+	font-size:0.85rem;
+	font-weight:700;
+}
+
+
+.panel{
+	height:40px;
+	background-color:#222f3d;
+	display:flex;
+	color:white;
+	align-items:center;
+	justify-content:space-evenly;
+
+}
+.panel-ops p{
+	display:inline;
+	justify-content:space-evenly;
+	margin:10px;
+}
+.panel-ops{
+	width:60%;
+	font-size:0.85rem;
+	
+}
+.panel-deals{
+	font-size:0.9rem;
+	font-weight:700;
+}
+
+
+
+
+
+.hero-section{
+	background-image:url("hero.jpg");
+	height:370px;
+	background-size:cover;
+	box-shadow:10px 10px 7px #2773a5;
+}
+
+
+
+
+
+
+.shop-section{
+	display:flex;
+	justify-content:space-evenly;
+	background-color:rgba(0,0,90,0.1);
+}
+.box{
+	height:400px;
+	width:23%;
+	background-color:white;
+	padding:20px 0px 15px;
+	margin:15px;
+}
+
+.box-img{
+	height:300px;
+	background-size:cover;
+	margin-top:1rem;
+	margin-bottom:1rem;
+	
+}
+.box-content{
+	margin-left:1rem;
+	margin-right:1rem;
+}
+.box-content p{
+	color:#007185;
+}
+
+
+
+
+
+.footer-first{
+	background-color:#37475a;
+	color:white;
+	height:50px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:0.85rem;
+	
+}
+
+.footer-first:hover{
+	color:red;
+	
+}
+
+.footer-content {
+    max-width: 100%;
+	height:300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	background-color:#1b232b;
+
+}
+
+}
+
+.footer-logo img {
+    max-width: 100px;
+}
+}
+
+.footer-logo img {
+    max-width: 100px;
+}
+
+.footer h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+	color:white;
+}
+h3{
+	color:white;
+}
+
+.footer-info p {
+    margin: 5px 0;
+	color:white;
+}
+
+.footer-social ul {
+    list-style: none;
+    padding: 0;
+	color:white;
+}
+
+.footer-social li {
+    display: inline-block;
+    margin-right: 10px;
+	color:white;
+}
+
+.footer-bottom {
+    text-align: center;
+    background-color: #222;
+    padding: 10px 0;
+}
+.footer-bottom p {
+    margin: 0;
+	color:white;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.hero {
+    background-color: #3498db; /* You can change this to your desired background color */
+    text-align: center;
+    padding: 100px ;
+    position: relative;
+   
+}
+
+/* Style the slider container */
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+/* Style individual slides (images) */
+.slide {
+    max-width: 100%;
+    max-height: 100%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Set initial opacity for all slides except the first one */
+.slide:not(:first-child) {
+    opacity: 0;
+}
+
+/* Add animation for the photo slider */
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Apply animation to the slider container */
+.slider {
+    animation: slide 5s linear infinite;
+}
+
+raj{
+	height:400px;
+	width:100px;
+	background-image:red;
+}
